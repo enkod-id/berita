@@ -1,5 +1,4 @@
-//const bcrypt = require('bcrypt')
-const bcrypt = require('../app.js').bcrypt
+const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
 const { JWT_SIGN } = require('../config/jwt')
 
