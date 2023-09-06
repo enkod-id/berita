@@ -15,9 +15,9 @@ const file = fs.readFileSync(openApiPath, 'utf8')
 const swaggerDocument = yaml.parse(file)
 const bodyParser = require('body-parser')
 const ejs = require('ejs')
-const bcrypt = require('bcrypt');
-const saltRounds = 10;
-module.exports.bcrypt = bcrypt;
+// const bcrypt = require('bcrypt');
+// const saltRounds = 10;
+// module.exports.bcrypt = bcrypt;
 
 const app = express()
 
